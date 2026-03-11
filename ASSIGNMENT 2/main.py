@@ -6,7 +6,7 @@ app = FastAPI()
 
 
 products = [
-    {"id": 1, "name": "Wireless Mouse", "price": 499, "category": "Electronics", "in_stock": True},
+    {"id": 1, "name": "Wireless Mouse", "price": 499, "category": "c:\Users\alekh\OneDrive\Desktop\Q1_1_output.png", "in_stock": True},
     {"id": 2, "name": "Notebook", "price": 99, "category": "Stationery", "in_stock": True},
     {"id": 3, "name": "USB Hub", "price": 799, "category": "Electronics", "in_stock": False},
     {"id": 4, "name": "Pen Set", "price": 49, "category": "Stationery", "in_stock": True},
