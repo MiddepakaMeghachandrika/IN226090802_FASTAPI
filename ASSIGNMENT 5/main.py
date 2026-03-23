@@ -3,9 +3,9 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-# =========================
+
 # PRODUCTS DATABASE
-# =========================
+
 
 products = [
     {"id": 1, "name": "Wireless Mouse", "price": 499, "category": "Electronics", "in_stock": True},
@@ -17,9 +17,9 @@ products = [
 cart = []
 orders = []
 
-# =========================
+
 # HOME
-# =========================
+
 
 @app.get("/")
 def home():
